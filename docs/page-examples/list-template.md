@@ -7,7 +7,7 @@
 ### 模版页展示
 
 <div class="list-template">
-  <iframe src="http://192.168.50.118:8080/#/list-template"></iframe>
+  <iframe src="http://localhost:8080/#/list-template"></iframe>
 </div>
 
 <script>

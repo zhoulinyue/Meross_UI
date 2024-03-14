@@ -1,7 +1,7 @@
 ## App 选择组件 <!-- {docsify-ignore} -->
 
 <div class="app-select">
-  <iframe src="http://192.168.50.118:8080/#/app-select"></iframe>
+  <iframe src="http://localhost:8080/#/app-select"></iframe>
 </div>
 
 <script>
@@ -15,7 +15,7 @@
 
 在全局中注册或者需要使用的页面注册
 
-- 全局注册
+- 全局注册 `main.js`
 
 ```javascript
 import appSelect from "../../components/select";
