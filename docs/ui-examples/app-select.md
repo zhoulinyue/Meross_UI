@@ -30,9 +30,8 @@ components: {
 
 - html 中引入 appSelect 组件
 
-```javascript
+```html
 <appSelect @update="updateVal"></appSelect>
-
 ```
 
 - methods 中引入 updateVal 方法
