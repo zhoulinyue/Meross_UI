@@ -1,7 +1,9 @@
 // *批量导出所有组件
 import demo from "./demo";
+import appSelect from "./select";
 const components = {
-  demo
+  demo,
+  appSelect
 };
 
 // 添加 install 方法
