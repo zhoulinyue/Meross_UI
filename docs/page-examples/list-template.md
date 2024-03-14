@@ -10,13 +10,6 @@
   <iframe src="http://localhost:8080/#/list-template"></iframe>
 </div>
 
-<script>
-  new Vue({
-    el: '#main',
-    data: { msg: 'Vue' }
-  })
-</script>
-
 ## 使用
 
 使用时`复制模板页`的代码到新页面，根据使用情况修改标题、筛选项和表格数据等。在需要自己`手动修改`的地方均做了`todo 标识`

@@ -4,13 +4,6 @@
   <iframe src="http://localhost:8080/#/app-select"></iframe>
 </div>
 
-<script>
-  new Vue({
-    el: '#main',
-    data: { msg: 'Vue' }
-  })
-</script>
-
 ### 注册
 
 在全局中注册或者需要使用的页面注册
