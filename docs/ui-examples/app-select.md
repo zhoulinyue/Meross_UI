@@ -11,39 +11,39 @@
 - 全局注册 `main.js`
 
 ```javascript
-import appSelect from "../../components/select";
+import appSelect from "meross_ui";
 
-Vue.component("appSelect", appSelect);
+Vue.use(appSelect)
 ```
 
 - 单页面注册
 
 ```javascript
-import appSelect from '../../components/select'
+import appSelect from "meross_ui";
 
 components: {
   appSelect
-},
+}
 ```
 
 ### 页面中使用
 
-- html 中引入 appSelect 组件
+- html 中引入 appSelect 组件，绑定更新函数
 
 ```html
-<appSelect @update="updateVal"></appSelect>
+<appSelect @update="handleUpdate"></appSelect>
 ```
 
-- methods 中引入 updateVal 方法
+- methods 中注册 handleUpdate 方法
 
 ```javascript
-updateVal(value) {
+handleUpdate(value) {
   this.selectValue = value;
 }
 
 ```
 
-其中`selectValue`为自己定义的接收选择框的值
+其中`selectValue`为父组件中接收选择框的值
 
 ### 父子组件通信
 
@@ -55,6 +55,6 @@ updateVal(value) {
 
 - 父组件 **接受参数**
 
-| 参数                  | 接受函数  |
+| method                | 接受函数  |
 | --------------------- | --------- |
-| selectValue（自定义） | updateVal |
+| update  | value: string |
