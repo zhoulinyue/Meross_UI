@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import demo from '../../components/demo'
 import { Button, Table, TableColumn, Pagination } from 'element-ui';
-import appSelect from '../../components/select'
+import appSelect from '../../components/appSelect'
 import VueRouter from 'vue-router'
 
 import router from './router'

@@ -11,27 +11,25 @@
 - 全局注册 `main.js`
 
 ```javascript
-import appSelect from "meross_ui";
+import merossUI from 'meross_ui';
 
-Vue.use(appSelect)
+Vue.use(merossUI)
 ```
 
-- 单页面注册
+- 单个组件注册
 
 ```javascript
-import appSelect from "meross_ui";
+import appSelect from 'meross_ui';
 
-components: {
-  appSelect
-}
+Vue.use(appSelect);
 ```
 
 ### 页面中使用
 
-- html 中引入 appSelect 组件，绑定更新函数
+- html 中直接使用 app-select 组件，绑定更新函数
 
 ```html
-<appSelect @update="handleUpdate"></appSelect>
+<app-select @update="handleUpdate"></app-select>
 ```
 
 - methods 中注册 handleUpdate 方法
