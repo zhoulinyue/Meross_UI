@@ -4,8 +4,8 @@ import appSelect from "./select";
 const components = {
   demo,
   appSelect
-};
-
+}
+  
 // 添加 install 方法
 // 在vue中调用 Vue.use(组件)将自动调用 install 方法注册所有组件
 const install = function (Vue) {
@@ -13,6 +13,11 @@ const install = function (Vue) {
   Object.keys(components).forEach((key) => {
     Vue.component(components[key].name, components[key]);
   });
+};
+
+export {
+  demo,
+  appSelect
 };
 
 // 导出所有组件
