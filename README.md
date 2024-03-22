@@ -1,23 +1,17 @@
 # meross_ui
 
-## 拉取依赖
-```
-npm install
-```
-
-### 启动
-```
-npm run serve
-```
-
 ### 构建
 ```
 npm run build:com
 ```
+### 发布
 
-### Lints and fixes files
+发布前需要修改根目录下 package.json 的 version；
+如果登录过，无需 npm login，可直接发布.
+
 ```
-npm run lint
+npm login
+npm publish
 ```
 
 ### 项目结构
@@ -39,3 +33,9 @@ npm run lint
 ├── vue.config.js           # 项目配置文件
 
 ```
+
+### 项目管理
+ （目前使用的zly个人githab、npm、账号）
+githab: https://github.com/zhoulinyue/Meross_UI.git
+npm: https://www.npmjs.com/package/meross_ui
+账号：zhoulinyue
