@@ -1,24 +1,21 @@
 # examples
 
-## Project setup
+## examples 目录用于调试组件库中组件，是完整的 Vue2 项目，可运行
+
+（以下所有操作均在 examples 文件夹下执行）
+
+### 安装依赖 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 执行
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

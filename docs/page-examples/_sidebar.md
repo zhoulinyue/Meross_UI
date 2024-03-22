@@ -1,1 +1,1 @@
-- [子列表页](page-examples/list-template.md )
+- [子列表页](page-examples/pages/list-template.md)
