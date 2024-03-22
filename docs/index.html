@@ -3,20 +3,24 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Meross UI</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="Meross UI">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="icon" href="https://static-file.meross.com/staticfile/1616815704103/7672393.ico" type="image/x-icon">
 </head>
 
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      loadSidebar: true,
-      subMaxLevel: 3
-    }
+      el: '#app', // *初始化时的挂载元素
+      maxLevel: 3, // *最大支持渲染的标题层级
+      loadNavbar: true, // *自定义导航栏
+      loadSidebar: true, // *自定义侧边栏
+      themeColor: '#0d8ed6'
+    };
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
@@ -42,5 +46,48 @@
     display: block;
     width: 100%;
     border: none;
+  }
+  /* 顶部导航 */
+  .app-nav.no-badge {
+    border-bottom: 1px solid #d6d6d6;
+    padding: 0 100px 0 20px;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: fixed;
+    background: #fff;
+    backdrop-filter: saturate(50%) blur(4px);
+  }
+  .app-nav a {
+    color: #333;
+    font-size: 14px;
+  }
+  .app-nav a.active, .app-nav a:hover {
+    border-bottom: none;
+  }
+  /*顶部导航 - icon */
+  .app-nav.no-badge ul:first-child {
+    padding: 0;
+  }
+  .app-nav.no-badge ul li:first-child {
+    float: left;
+  }
+  .app-nav.no-badge ul li:first-child img {
+    width: 100px;
+    height: 100%;
+    line-height: 100%;
+  }
+  /* 顶部导航 - 下拉框 */
+  .app-nav.no-badge ul li ul li:first-child {
+    float: none;
+  }
+  /* 侧边栏 */
+  .sidebar {
+    top: 60px;
+    border-right: none;
+    padding-left: 20px;
   }
 </style>
