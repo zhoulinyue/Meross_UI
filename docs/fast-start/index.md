@@ -2,7 +2,7 @@
 ### 配置私有仓库
 添加私有仓库后，下载源即为公司私有源，只有公司私有源才可下载 meross_ui。
 
-在项目`根目录`下添加文件`.npmrc`，，内容如下：
+在项目`根目录`下添加文件`.npmrc`，内容如下：
 ```
 always-auth=true
 registry=http://xxxxx:4873/ // todo 
