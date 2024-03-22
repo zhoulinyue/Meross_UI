@@ -25,9 +25,7 @@ todo
     ├── _sidebar.md               # 示例页面的侧边栏
     ├── pages                     # 具体文档
 ├── ui-examples                 # UI组件示例
-    ├── _sidebar.md               # UI组件的侧边栏：包括业务组件及原子组件
-    ├── pages                     # 具体文档
-├── fast-start.md               # 快速开始文档
+├── fast-start                  # 快速开始文档
 ├── _navbar.md                  # 顶部导航栏
 ├── .nojekyll                   # 用于防止 GitHub Pages 忽略下划线开头的文件
 ├── index.html                  # docsify 基础配置, 文档平台样式调整

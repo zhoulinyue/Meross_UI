@@ -1,1 +1,4 @@
-- [子列表页](page-examples/pages/list-template.md)
+- [主列表页](page-examples/pages/list-main.md)
+- [子列表页](page-examples/pages/list-child.md)
+- [新增页](page-examples/pages/add.md)
+- [弹窗](page-examples/pages/dialog.md)

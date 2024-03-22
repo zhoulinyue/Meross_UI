@@ -1,3 +1,4 @@
+# 快速开始
 ### 配置私有仓库
 添加私有仓库后，下载源即为公司私有源，只有公司私有源才可下载 meross_ui。
 
@@ -17,4 +18,4 @@ npm install meross_ui
 
 ### 使用
 
-见 [常用组件](page-examples/pages/list-template.md) 及 [典型页面](page-examples/pages/list-template.md)
+见 [常用组件](page-examples/pages/list-child.md) 及 [典型页面](page-examples/pages/list-child.md)
